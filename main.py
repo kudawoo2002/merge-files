@@ -14,7 +14,6 @@ data2 = read_file(file2)
 data3 = read_file(file3)
 
 def write_file(*arguments):
-    
     for i in arguments:
         with open(merge_file, "a") as file:
             file.write(i +"\n")
